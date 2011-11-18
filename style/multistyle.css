@@ -1,0 +1,92 @@
+body {
+margin: 0 auto;
+font-size: 14px;
+text-align: center;
+background-color: white;
+}
+
+body div {
+text-align: left
+}
+
+select {
+width: 70mm;
+}
+
+#main {
+width: 740px;
+margin-left: auto;
+margin-right: auto;
+background-image: url("../images/mainbg.jpg");
+}
+
+#head {
+width: 740px;
+height: 19px;
+background-image: url("../images/headbg.jpg");
+background-repeat: no-repeat;
+background-position: center;
+text-align: center;
+}
+
+#logo {
+width: 740px;
+margin-left: auto;
+margin-right: auto;
+background-image: url("../images/ums1.png");
+background-repeat: no-repeat;
+background-position: center top;
+}
+
+#head h1 {
+padding-top: 60px;
+margin: 0px;
+font-size: 25px;
+color: #000000;
+}
+
+#content {
+padding-left: 20px;
+padding-right: 20px;
+}
+
+#content h1 {
+margin-top: 10px;
+margin-bottom: 5px;
+font-size: 14px;
+}
+
+#content a {
+text-decoration: none;
+color: #000000;
+font-style: italic;
+}
+
+#content a:hover {
+text-decoration: underline;
+}
+
+#foot {
+margin-left: auto;
+margin-right: auto;
+width: 740px;
+height: 30px;
+padding-top: 20px;
+text-align: center;
+background-image: url("../images/bottombg.jpg");
+background-position: center;
+background-repeat: no-repeat;
+font-family: Calibri;
+font-weight:bold;
+font-size: 11px;
+color: #000000;
+}
+
+#foot a {
+color: blue;
+text-decoration: none;
+}
+
+#foot a:hover {
+text-decoration: underline;
+}
